@@ -106,13 +106,13 @@ h1 {
     }
     
     .animated {
-        width: 900px;
+        width: 860px;
         padding-bottom: 20px;
     }
     
     h1 {
         text-align: center;
-        margin-top: 500px;
+        margin-top: 300px;
         font-size: 5em;
         margin-bottom: 50px;
     }
