@@ -14,27 +14,27 @@ display: flex;
 justify-content: flex-start;
 }
 
+/* for small screen */
 .content {
-    width: 50%;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    opacity: 0.8;
+    color: white;
 }
-
-.images{
-    position: fixed !important;
-    left: 50%;
-    top:inherit !important;
-    width: 50%;
+.images {
+    position: fixed;
     z-index: -1;
+    width: 100%;
+    text-align: center;
 }
-
 .animated {
-    width: 900px;
-    padding-bottom: 20px;
+    width: 50%;
+
 }
 
 h1 {
-    text-align: center;
-    margin-top: 250px;
-    font-size: 9em;
+    font-size: 5em;
     margin-bottom: 50px;
 }
 
@@ -43,14 +43,9 @@ h1 {
     margin-bottom: 500px;
 }
 
-#description {
-    font-size: 5em;
-}
+#projects {
+    margin-bottom: 20px;
 
-#about {
-    text-align: center;
-    margin-bottom: 150px;
-    font-size: 4em;
 }
 
 .showcase {
@@ -60,22 +55,10 @@ h1 {
     padding-bottom: 50px;
 
 }
-#projects {
-    margin-bottom: 20px;
 
-}
-
-.allworks {
-    padding: 0 10px;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-}
-#tech {
-    text-align: left;
-}
 .link {
     text-decoration: none;
+    font-size: 1em;
     border: 2px solid black;
     color: white;
     display: inline-block;
@@ -83,4 +66,95 @@ h1 {
     padding: 5px;
     background: black;
     border-radius: 3%;
+}
+
+#tech {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#project {
+    margin-bottom: 20px;
+}
+
+
+
+
+/* for big screen */
+
+@media only screen and (min-width: 1024px) {
+    .content {
+        width: 50%;
+        background-color: #FEFEFE;
+        color: black;
+    }
+    
+    .images{
+        position: fixed !important;
+        left: 50%;
+        top:inherit !important;
+        width: 50%;
+        z-index: -1;
+    }
+    
+    .animated {
+        width: 900px;
+        padding-bottom: 20px;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-top: 250px;
+        font-size: 9em;
+        margin-bottom: 50px;
+    }
+    
+    #scroll, #description, #projects {
+        text-align: center;
+        margin-bottom: 500px;
+    }
+    
+    #description {
+        font-size: 5em;
+    }
+    
+    #about {
+        text-align: center;
+        margin-bottom: 150px;
+        font-size: 4em;
+    }
+    
+    .showcase {
+        padding-top: 50px;
+        background-color: white;
+        text-align: center;
+        padding-bottom: 50px;
+    
+    }
+    #projects {
+        margin-bottom: 20px;
+    
+    }
+    
+    .allworks {
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    #tech {
+        text-align: left;
+    }
+    .link {
+        text-decoration: none;
+        font-size: 1.3em;
+        border: 2px solid black;
+        color: white;
+        display: inline-block;
+        width: 2.5cm;
+        padding: 5px;
+        background: black;
+        border-radius: 3%;
+    }
+    
 }
