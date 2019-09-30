@@ -94,6 +94,7 @@ h1 {
         background-color: #FEFEFE;
         color: black;
         opacity: 1;
+        font-size: 2em;
     }
     
     .images{
@@ -112,7 +113,7 @@ h1 {
     h1 {
         text-align: center;
         margin-top: 500px;
-        font-size: 7em;
+        font-size: 5em;
         margin-bottom: 50px;
     }
     
@@ -122,13 +123,13 @@ h1 {
     }
     
     #description {
-        font-size: 3em;
+        font-size: 2em;
     }
     
     #about {
         text-align: center;
         margin-bottom: 150px;
-        font-size: 3em;
+        font-size: 2em;
     }
     
     .showcase {
