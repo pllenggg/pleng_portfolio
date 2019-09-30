@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
 body {
-    background: #FEFEFE;
+    background-color: grey;
+    opacity: 0.5;
+    color: white;
     font-family: 'Rubik', sans-serif;
 }
 #container {
@@ -18,9 +20,7 @@ justify-content: flex-start;
 .content {
     width: 100%;
     text-align: center;
-    background-color: grey;
-    opacity: 0.5;
-    color: white;
+
 }
 .images {
     position: fixed;
