@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
 body {
+    background: #FEFEFE;
     font-family: 'Rubik', sans-serif;
 }
 #container {
@@ -19,11 +20,15 @@ justify-content: flex-start;
 
 .images{
     position: fixed !important;
-    left: 55%;
+    left: 50%;
     top:inherit !important;
     width: 50%;
-
     z-index: -1;
+}
+
+.animated {
+    width: 85%;
+    padding-bottom: 20px;
 }
 
 h1 {
