@@ -18,7 +18,7 @@ body {
 .animated {
     margin: 0;
     z-index: -1;
-    width: 110%;
+    width: 120%;
     position: fixed;
     top: 0;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 #name {
-    margin-top: 70%;
+    margin-top: 110%;
     font-size: 2em;
 }
 
